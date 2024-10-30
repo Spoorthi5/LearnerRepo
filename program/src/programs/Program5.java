@@ -19,7 +19,7 @@ public class Program5{
 class customException extends Exception{
 	
 	public customException(String msg) {
-		int repo ;
-		int repos ;
+		int repo = 0 ;
+		System.out.println("Using Repo" +repo);
 }
 }
