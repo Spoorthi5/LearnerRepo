@@ -1,0 +1,17 @@
+package programs;
+
+public class Program5 {
+
+	public static void main(String[] args) {
+		
+		Foo foo1 = (foo2,foo3) -> foo2&&foo3 ;
+		Foo foo2 = (b1,b2) -> b1||b2 ;
+		Foo foo3 = (b1,b2) -> !foo2.compare(b1,b2) ;
+		
+		//System.out.println(foo1.compare(foo2,foo3));
+		
+		String stringgg = "qyeieie" ;
+		System.out.println(stringgg.valueOf(123545));
+	}
+
+}

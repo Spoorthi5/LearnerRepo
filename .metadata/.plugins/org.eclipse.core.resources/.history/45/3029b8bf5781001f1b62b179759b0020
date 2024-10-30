@@ -1,0 +1,44 @@
+package programs;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Program5{
+
+	@SuppressWarnings("static-access")
+	public static void main(String[] args) {
+		
+	List<String> data = new ArrayList<>(Collections.nCopies(500, "Method")) ;
+		A obj = new A()
+;
+		obj.Generate(data);}
+
+}
+class A{
+	
+	public void Generate(List<String> data) throws InterruptedException
+
+{
+		if(data.size()>50)
+		{
+			throw new InterruptedException("error");
+		}
+}
+class B extends  A{
+	
+	public void output()
+
+{
+		System.out.println("Bs");
+		}
+}
+class C extends  B{
+	
+	public void output()
+
+{
+		
+		System.out.println("cs");
+		}
+}

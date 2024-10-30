@@ -1,0 +1,37 @@
+package programs;
+
+public class Program5 extends program6{
+
+	@SuppressWarnings("static-access")
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}
+class A{
+	
+	public void output()
+
+{
+		System.out.println("As");
+		}
+}
+class B extends  A{
+	
+	public void output()
+
+{
+		System.out.println("Bs");
+		}
+}
+class C extends  B{
+	
+	public void output()
+
+{
+		super() ;
+		System.out.println("cs");
+		}
+}

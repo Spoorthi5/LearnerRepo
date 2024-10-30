@@ -1,0 +1,23 @@
+package programs;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class Program5{
+
+	@SuppressWarnings("static-access")
+	public static void main(String[] args) throws Exception {
+		
+	Stream s = Stream.of(12,11,40,22) ;
+	Optional min = s.filter((Integer p) -> p%2==0).min() ;
+	System.out.println(min);	
+	}
+
+}
+class customException extends Exception{
+	
+	public customException(String msg) {
+}
+}

@@ -1,0 +1,23 @@
+package programs;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Program5{
+
+	@SuppressWarnings("static-access")
+	public static void main(String[] args) throws InterruptedException {
+		
+	List<String> data = new ArrayList<>(Collections.nCopies(500, "Method")) ;
+		A obj = new A();
+		obj.Generate(data);
+		
+	}
+
+}
+class customException extends Exception{
+	
+	public customException(String msg) {
+}
+}
